@@ -17,7 +17,7 @@ from eyed3.id3.frames import ImageFrame
 
 # 音乐搜索
 class Search:
-    # 固定方法 决不能改 需要配合Bot
+    # 固定方法 需要配合Bot
     query_result = {
         'select_type': 0,  # 默认0：检索失败 1:检索成功需要选择
         'data': ''  # 反馈给客户端的消息
